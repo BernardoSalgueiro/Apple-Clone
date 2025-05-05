@@ -1,0 +1,323 @@
+/* Formatações gerais */
+
+body {
+	background: #F5F5F7;
+	overflow-x: hidden;
+}
+
+.bg-custom {
+	background: #F5F5F7;
+}
+
+/* Formatações Navbar */
+
+.nav-link {
+	font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+.nav-link:hover {
+	color: #000;
+}
+
+.navbar-brand img {
+	vertical-align: middle;
+	margin-top: -4px;
+	margin-left: 70px;
+}
+
+.navbar-brand:hover {
+	filter: brightness(0);
+	transition: all 0.5s;
+}
+
+.navbar-nav .nav-item {
+	margin: 0px 12px;
+}
+
+.navbar-brand {
+	margin-right: -10px;
+}
+
+/* Formatações Conteúdo */
+
+.container-fluid {
+	margin-left: 140px;
+}
+
+/* Parte inicial */
+
+.h1-inicial {
+	margin-top: 65px;
+	font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 45px;
+}
+
+span {
+	color: #6e6e73;
+}
+
+.grade-conteudos {
+	display: inline-flex;
+	gap: 30px;
+	margin-top: 75px;
+}
+
+.grade-conteudos a {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+}
+
+.grade-conteudos a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+/* Cards */
+
+h2 {
+	margin-top: 90px;
+	margin-bottom: 25px;
+	font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.text-custom {
+	background: linear-gradient(90deg, #007aff, #5856d6, #af52de, #ff2d55, #ff3b30);
+	background-clip: text;
+	color: transparent;
+	display: inline;
+	font-weight: bold;
+}
+
+.card {
+	border-radius: 25px;
+	overflow: hidden;
+	width: 400px;
+	height: 500px;
+	margin-bottom: 0px;
+}
+
+.conteudo-card {
+	padding: 25px 10px;
+}
+
+.card-title {
+	font-size: 28px;
+}
+
+.card1 {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	color: #000;
+}
+
+.card1:hover {
+	transform: scale(1.03);
+	z-index: 2;
+	color: #000;
+}
+
+.card2 {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card2:hover {
+	transform: scale(1.03);
+	z-index: 2;
+}
+
+.card3 {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	color: #000;
+}
+
+.card3:hover {
+	transform: scale(1.03);
+	z-index: 2;
+	color: #000;
+}
+
+.cards-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	margin-bottom: 50px;
+}
+
+/* Seção cards dia das mães */
+
+.textoDestaque {
+	color: #ff3c26;
+}
+
+.cardDiaMaes {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	color: #000;
+}
+
+.cardDiaMaes:hover {
+	transform: scale(1.03);
+	z-index: 2;
+	color: #000;
+}
+
+.conteudo-cardMaes {
+	padding: 10px 10px;
+}
+
+.cardProdutos {
+	width: 313px;
+	height: 500px;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	color: #000;
+	text-decoration: none;
+}
+
+.cardProdutos:hover {
+	transform: scale(1.03);
+	z-index: 2;
+	color: #000;
+	text-decoration: none;
+}
+
+.textoProdutos {
+	font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+/* Cards Loja */ 
+
+.conteudo-cardLoja {
+	padding: 10px 10px;
+	color: #000;
+}
+
+.cardLoja {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardLoja:hover {
+	transform: scale(1.03);
+	z-index: 2;
+}
+
+/* Cards destaques */
+
+.cardDestaques {
+	width: 313px;
+	height: 240px;
+	text-decoration: none;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardDestaques:hover {
+	text-decoration: none;
+	transform: scale(1.03);
+	z-index: 2;
+
+}
+
+.conteudo-cardDestaques i {
+	padding: 20px 35px;
+	text-decoration: none;
+}
+
+/* Cards assistência técnica */
+
+.cardAssistencia {
+	width: 480px;
+	height: 500px;
+	text-decoration: none;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardAssistencia:hover {
+	text-decoration: none;
+	transform: scale(1.03);
+	z-index: 2;
+}
+
+.conteudo-cardAssistencia {
+	color: #000;
+}
+
+/* Cards Serviços */
+
+.cardServicos {
+	width: 480px;
+	height: 500px;
+	text-decoration: none;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardServicos:hover {
+	text-decoration: none;
+	transform: scale(1.03);
+	z-index: 2;
+}
+
+.conteudo-cardServicos {
+	color: #000;
+	padding: 20px 10px;
+}
+
+/* Cards recursos */ 
+
+.cardRecursos {
+	width: 400px;
+	height: 500px;
+	text-decoration: none;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.cardRecursos:hover {
+	text-decoration: none;
+	transform: scale(1.03);
+	z-index: 2;
+}
+
+.conteudo-cardRecursos {
+	color: #000;
+	padding: 10px 10px;
+}
+
+/* Links Rápidos */
+
+.linksRapidos {
+	background: #f5f5f7;
+	border-radius: 25px;
+	border: 1px solid #000;
+	padding: 8px 18px;
+	color: #000;
+}
+
+.linksRapidos:hover {
+	background: #272729;
+	color: #fff;
+}
+
+/* Rodapé */
+
+.rodape {
+	padding: 10px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.linksRodape {
+	color: #000;
+	font-size: 13px;
+}
+
+.linksRodape:hover {
+	color: #000;
+}
