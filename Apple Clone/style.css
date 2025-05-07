@@ -321,3 +321,167 @@ h2 {
 .linksRodape:hover {
 	color: #000;
 }
+
+/* Layout Responsivo */
+
+
+/* telas até 768px */
+@media (max-width: 768px) {
+	.navbar-brand img {
+		margin-left: 10px;
+		margin-right: 15px;
+		width: 40px;
+	}
+
+	.container-fluid {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.h1-inicial {
+		font-size: 24px;
+		text-align: center;
+		margin-right: 15px;
+	}
+
+	.grade-conteudos {
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.cards-row {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.card,
+	.cardProdutos,
+	.cardAssistencia,
+	.cardServicos,
+	.cardRecursos,
+	.cardDestaques {
+		width: 90%;
+		height: auto;
+	}
+
+	.conteudo-cardDestaques {
+		text-align: center;
+	}
+
+	.conteudo-cardDestaques h5 {
+		padding-bottom: 8px;
+	}
+
+	.conteudo-cardAssistencia h5 {
+		font-size: 18px;
+		text-align: left;
+	}
+
+	.conteudo-cardServicos h5 {
+		text-align: left;
+		font-size: 20px;
+	}
+
+	.conteudo-cardRecursos h5 {
+		text-align: left;
+		font-size: 18px;
+	}
+
+	.card-title {
+		font-size: 18px;
+		text-align: center;
+		margin-right: 15px;
+	}
+
+	.textoProdutos {
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.linksRapidos {
+		display: block;
+		margin: 10px auto;
+		text-align: center;
+	}
+}
+
+/* telas até 992px */
+
+@media (max-width: 992px) {
+	.navbar-brand img {
+		margin-left: 10px;
+		margin-right: 15px;
+		width: 40px;
+	}
+
+	.container-fluid {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+	.h1-inicial {
+		font-size: 28px;
+		text-align: center;
+	}
+
+	.grade-conteudos {
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.cards-row {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.card,
+	.cardProdutos,
+	.cardAssistencia,
+	.cardServicos,
+	.cardRecursos,
+	.cardDestaques {
+		width: 90%;
+		height: auto;
+	}
+
+	.conteudo-cardDestaques {
+		text-align: center;
+	}
+
+	.conteudo-cardDestaques h5 {
+		padding-bottom: 8px;
+	}
+
+	.conteudo-cardAssistencia h5 {
+		font-size: 18px;
+		text-align: left;
+	}
+
+	.conteudo-cardServicos h5 {
+		text-align: left;
+		font-size: 20px;
+	}
+
+	.conteudo-cardRecursos h5 {
+		text-align: left;
+		font-size: 18px;
+	}
+
+	.card-title {
+		font-size: 22px;
+		text-align: center;
+	}
+
+	.textoProdutos {
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.linksRapidos {
+		display: block;
+		margin: 10px auto;
+		text-align: center;
+	}
+}
